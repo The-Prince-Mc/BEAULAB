@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Perusahaan</title>
+
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="welcomestyle.css">
+</head>
+<body>
+
+    <!-- Background Stars -->
+    <div id="stars"></div>
+
+    <!-- =========================
+         HALAMAN SAMBUTAN
+    ========================== -->
+
+    <section id="welcome">
+
+        <div class="container">
+
+            <img src="logo.png" alt="Logo Perusahaan" class="logo">
+
+            <h1>Selamat Datang</h1>
+
+            <p>
+                Terima kasih telah mengunjungi website kami.
+            </p>
+
+            <button id="enterBtn" class="glass-btn">
+                Masuk
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         HALAMAN UTAMA
+    ========================== -->
+
+    <main id="main-page">
+
+        <!-- HERO -->
+
+        <section class="hero-section">
+
+            <div class="container">
+
+                <img src="logo.png" alt="Logo Perusahaan" class="logo">
+
+                <h1>Lumier BeauLab</h1>
+
+                <p>
+                    Solusi terpercaya untuk perawatan kuku dan seni kuku yang menakjubkan.
+                </p>
+
+              <div class="button-group">
+
+    <button
+        class="glass-btn"
+        onclick="document.getElementById('about-section').scrollIntoView({behavior:'smooth'})">
+
+        Tentang Kami
+
+    </button>
+
+    <button
+        class="glass-btn"
+        onclick="document.getElementById('service-section').scrollIntoView({behavior:'smooth'})">
+
+        Layanan & Harga
+
+    </button>
+
+    <button
+        class="glass-btn"
+        onclick="document.getElementById('location-section').scrollIntoView({behavior:'smooth'})">
+
+        Lokasi Kami
+
+    </button>
+
+    <button
+        class="glass-btn"
+        onclick="document.getElementById('contact-section').scrollIntoView({behavior:'smooth'})">
+
+        Jam Operasional & Kontak
+
+    </button>
+
+</div>
+            </div>
+
+        </section>
+
+        <!-- ABOUT US -->
+
+        <section id="about-section" class="reveal">
+
+    <div class="container">
+
+        <div class="glass-card liquid-glass">
+
+            <h2>Tentang Kami</h2>
+
+            <p>
+
+                LUMIER.BEAULAB adalah salon kecantikan yang berfokus pada
+                layanan nail care dan beauty treatment profesional.
+
+                Kami menghadirkan pelayanan berkualitas dengan standar
+                kebersihan, kenyamanan, dan kepuasan pelanggan yang tinggi.
+
+                Kami percaya bahwa kecantikan bukan hanya tentang penampilan,
+                tetapi juga tentang rasa percaya diri dan kenyamanan yang
+                Anda rasakan setelah mendapatkan perawatan terbaik.
+            </p>
+
+            <p class="about-quote">
+                "It's the light you bring home with you."
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+        </section>
+
+        <!-- SERVICE -->
+        <section id="service-section">
+
+    <div class="container">
+
+        <h2>Layanan & Harga</h2>
+
+        <div class="service-wrapper">
+
+            <!-- Nail Treatment -->
+            <div class="service-card liquid-glass">
+
+                <h3>Nail Treatment</h3>
+
+                <div class="service-item">
+                    <span>Lumier Reset</span>
+                    <span>50K</span>
+                </div>
+                <small>Russian Manicure + FREE Vitamin</small>
+
+                <div class="service-item">
+                    <span>Lumier Overlay</span>
+                    <span>100K</span>
+                </div>
+                <small>Russian Manicure + Overlay</small>
+
+                <div class="service-item">
+                    <span>Add On Basic Gel Polish</span>
+                    <span>30K</span>
+                </div>
+
+                <div class="service-item">
+                    <span>Add On Fake Nails Extension</span>
+                    <span>8K / Nail</span>
+                </div>
+
+                <div class="service-item">
+                    <span>Lumier Simple</span>
+                    <span>95K</span>
+                </div>
+                <small>Pedicure + Simple Gel Polish + Vitamin</small>
+
+                <div class="service-item">
+                    <span>Lumier Callus Treatment</span>
+                    <span>175K</span>
+                </div>
+                <small>Callus Treatment + Pedicure + Vitamin</small>
+
+                <div class="service-item">
+                    <span>Lumier Callus Extra</span>
+                    <span>210K</span>
+                </div>
+                <small>Callus Treatment + Pedicure + Simple Gel Polish</small>
+
+            </div>
+
+            <!-- Nail Art -->
+            <div class="service-card liquid-glass">
+
+                <h3>Nail Art by April</h3>
+
+                <div class="service-item">
+                    <span>Easy Nail Art</span>
+                    <span>5–10K / Nail</span>
+                </div>
+
+                <div class="service-item">
+                    <span>Medium Nail Art</span>
+                    <span>15–20K / Nail</span>
+                </div>
+
+                <div class="service-item">
+                    <span>Hard Nail Art</span>
+                    <span>25–30K / Nail</span>
+                </div>
+
+                <div class="service-item">
+                    <span>Advance Nail Art</span>
+                    <span>> 30K / Nail</span>
+                </div>
+
+                <hr>
+
+                <h3>Nail Art by Team</h3>
+
+                <div class="service-item">
+                    <span>Easy Nail Art</span>
+                    <span>4–8K / Nail</span>
+                </div>
+
+                <div class="service-item">
+                    <span>Medium Nail Art</span>
+                    <span>9–15K / Nail</span>
+                </div>
+
+                <div class="service-item">
+                    <span>Hard Nail Art</span>
+                    <span>16–25K / Nail</span>
+                </div>
+
+                <hr>
+
+                <h3>Removal</h3>
+
+                <div class="service-item">
+                    <span>Remove Gel Polish</span>
+                    <span>30K</span>
+                </div>
+
+                <div class="service-item">
+                    <span>Remove Nail Art / Overlay</span>
+                    <span>50K</span>
+                </div>
+
+                <div class="service-item">
+                    <span>Remove Nail Extension</span>
+                    <span>100K</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Home Service -->
+        <div class="home-service liquid-glass">
+
+            <h3>Home Service</h3>
+
+            <p>
+                Tersedia dengan minimum transaksi
+                <strong>Rp 250.000</strong>
+            </p>
+
+        </div>
+
+        <p class="price-note">
+            *Seluruh harga dalam ribuan rupiah
+        </p>
+
+    </div>
+
+</section>
+
+        <!-- LOKASI -->
+
+        <section id="location-section">
+
+            <div class="container">
+
+                <h2>Lokasi Kami</h2>
+
+                <p>
+                    Temukan lokasi kantor kami melalui Google Maps.
+                </p>
+
+                <div class="map-glass">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d250.46145427391215!2d107.1070182898475!3d-6.25450318574148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sid!2sid!4v1782301798787!5m2!1sid!2sid"
+                        loading="lazy"
+                        allowfullscreen
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+
+                </div>
+
+                <button
+                    class="glass-btn"
+                    onclick="window.open('https://maps.google.com/?q=-6.254503,107.107018')">
+
+                    Buka di Google Maps
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <section id="contact-section">
+
+    <div class="container">
+
+        <div class="contact-card liquid-glass">
+
+            <div class="contact-grid">
+
+                <!-- Jam Operasional -->
+
+                <div class="contact-column">
+
+                    <h2>Jam Operasional & Kontak</h2>
+
+                    <div class="schedule">
+
+                        <h3>Senin - Kamis</h3>
+                        <p>12.00 - 20.00</p>
+
+                    </div>
+
+                    <div class="schedule">
+
+                        <h3>Selasa, Jumat, Sabtu, Minggu</h3>
+                        <p>10.00 - 18.00</p>
+
+                    </div>
+
+                    <div class="schedule">
+
+                        <h3>Rabu</h3>
+                        <p>Tutup</p>
+
+                    </div>
+
+                    <div class="note">
+
+                        <p>
+                           Anda dapat memesan perawatan di luar jam kerja dengan konfirmasisebelumnya.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Alamat -->
+
+                <div class="contact-column">
+
+                    <h2>LUMIER.BEAULAB</h2>
+
+                    <p>
+                        Ruko Melawai 01 No. 31<br>
+                        Metland Cibitung<br>
+                        Bekasi, Jawa Barat
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Kontak -->
+
+           <div class="contact-footer">
+
+    <div class="contact-item">
+        <a href="https://wa.me/6289652533856"
+           target="_blank"
+           class="social-link">
+
+            <i class="fab fa-whatsapp"></i>
+            WhatsApp
+
+        </a>
+    </div>
+    <div class="contact-item"></div>
+        <a href="https://tiktok.com/@lumier.beaulab"
+           target="_blank"
+           class="social-link">
+
+            <i class="fab fa-tiktok"></i>
+            @lumier.beaulab
+
+        </a>
+    </div>
+
+
+</div>
+</section>
+
+
+    </main>
+
+    <script src="welcome.js"></script>
+
+</body>
+</html>
